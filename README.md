@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
+# 📱 Catálogo Mobile - React Native (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido com **React Native + Expo**, com simulação de login, listagem de produtos por categorias e consumo de API externa.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Funcionalidades
 
-   ```bash
-   npm install
-   ```
+- 🔐 Tela de login com validação e armazenamento temporário de dados
+- 👕 Listagem de produtos masculinos e femininos por abas
+- 📦 Consumo de API externa (DummyJSON)
+- 🔍 Tela de detalhes do produto com:
+  - Imagem
+  - Nome
+  - Descrição
+  - Preço original riscado
+  - Preço com desconto
+- 🔓 Logout funcional
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Prints do Aplicativo
 
-In the output, you'll find options to open the app in a
+### 🔐 Tela de Login
+![Tela de Login](assets/screenshots/tela-de-login.jpeg)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🔐 Campos Obrigatórios
+![Campos Obrigatórios](assets/screenshots/campos-obrigatorios.jpeg)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🔐 Credenciais Inválidas
+![Credenciais Inválidas](assets/screenshots/credenciais-invalidas.jpeg)
 
-## Get a fresh project
+### 🏠 Produtos Masculinos
+![Produtos Masculinos](assets/screenshots/produtos-masculinos.jpeg)
 
-When you're ready, run:
+### 🏠 Produtos Femininos
+![Produtos Femininos](assets/screenshots/produtos-femininos.jpeg)
 
+### 📦 Descrição de Produto
+![Descrição de Produto](assets/screenshots/descricao-de-produto.jpeg)
+
+### 🔓 Logout Funcional
+![Logout Funcional](assets/screenshots/logout-funcional.jpeg)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React Native**
+- **Expo**
+- **Axios**
+- **Context API (AuthContext)**
+- **Expo Router**
+- **DummyJSON API**
+
+---
+
+## 📡 API Utilizada
+
+- Documentação: https://dummyjson.com/docs  
+- Categorias:
+  - Masculino: `mens-shirts`, `mens-shoes`, `mens-watches`
+  - Feminino: `womens-bags`, `womens-dresses`, `womens-jewellery`, `womens-shoes`, `womens-watches`
+
+---
+
+## ▶️ Como executar o projeto
+
+### Pré-requisitos:
+- Node.js
+- Expo CLI
+- Git
+
+### Passos:
 ```bash
-npm run reset-project
-```
+git clone https://github.com/luisfcdev/catalogo-mobile-expo.git
+cd catalogo-mobile-expo
+npm install
+npx expo start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🔑 Credenciais de Login
 
-To learn more about developing your project with Expo, look at the following resources:
+Este aplicativo utiliza **login simulado**, apenas para fins acadêmicos.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Username: admin
+Senha: 1234
